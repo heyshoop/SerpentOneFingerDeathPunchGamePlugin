@@ -24,10 +24,14 @@ class SerpentOneFingerDeathPunchGame(Game, metaclass=Singleton):
     @property
     def screen_regions(self):
         regions = {
-            "PAUSE_BUTTON": (0, 0, 32, 57),
+            # MENU BUTTONS
+            # These regions aren't accurate. TODO: get better regions
+            "MAIN_MENU_CLICK_MOUSE_PLAY": (357, 508, 579, 767),
+            "MODE_MENU_SURVIVAL": (93, 658, 629, 1108),
             # SURVIVAL MENU BUTTONS
             "SURVIVAL_MENU_BUTTON_TOP": (281, 458, 349, 822),
             "SURVIVAL_PRE_GAME_START_BUTTON": (81, 897, 124, 1085),
+            # GAME BUTTONS
             "GAME_OVER_SCORE_BUTTON": (414, 1037, 537, 1148)
         }
 
