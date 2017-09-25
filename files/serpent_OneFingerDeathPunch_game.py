@@ -26,7 +26,9 @@ class SerpentOneFingerDeathPunchGame(Game, metaclass=Singleton):
         regions = {
             "PAUSE_BUTTON": (0, 0, 32, 57),
             # SURVIVAL MENU BUTTONS
-            "SURVIVAL_MENU_BUTTON_TOP": (281, 458, 349, 822)
+            "SURVIVAL_MENU_BUTTON_TOP": (281, 458, 349, 822),
+            "SURVIVAL_PRE_GAME_START_BUTTON": (81, 897, 124, 1085),
+            "GAME_OVER_SCORE_BUTTON": (414, 1037, 537, 1148)
         }
 
         return regions
