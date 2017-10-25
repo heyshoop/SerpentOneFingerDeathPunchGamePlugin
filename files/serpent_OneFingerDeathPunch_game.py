@@ -76,8 +76,8 @@ class SerpentOneFingerDeathPunchGame(Game, metaclass=Singleton):
         presets = {
             "SAMPLE_PRESET": {
                 "extract": {
-                    "gradient_size": 1,
-                    "closing_size": 1
+                    "gradient_size": 3,
+                    "closing_size": 10
                 },
                 "perform": {
                     "scale": 10,
